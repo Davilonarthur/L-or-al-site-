@@ -9,8 +9,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
-header{
+body{
     background-color: #efeef3;
+}
+header{
     @include flexbox();
     height: 7vh;
     
@@ -25,9 +27,40 @@ header{
         padding: 10px;
     }
     img{
-        width: 20vh;
+        width: 25vh;
         padding: 0px 5px 2vh 1vw;
     }
     
    
+}
+.principal{
+    margin-top: 3vw;
+    margin-left: 11vh;
+
+    @include flexbox();
+    img{
+
+        width: 34vh;
+        border-radius: 18px;
+    }
+    .textoaninhadon1{
+        border: solid;
+       
+    }
+
+}
+.secundaria{
+    @include flexbox();
+    p{
+        margin-left: 11vh;
+    }
+    .produtos{
+        @include flexbox();
+        
+        justify-content: space-around;
+        img{
+            width: 13vw;
+            padding: 3vh;
+        }
+    }
 }

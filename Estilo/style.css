@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 
-header {
+body {
   background-color: #efeef3;
+}
+
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +26,40 @@ header li {
   padding: 10px;
 }
 header img {
-  width: 20vh;
+  width: 25vh;
   padding: 0px 5px 2vh 1vw;
+}
+
+.principal {
+  margin-top: 3vw;
+  margin-left: 11vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.principal img {
+  width: 34vh;
+  border-radius: 18px;
+}
+.principal .textoaninhadon1 {
+  border: solid;
+}
+
+.secundaria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secundaria p {
+  margin-left: 11vh;
+}
+.secundaria .produtos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+}
+.secundaria .produtos img {
+  width: 13vw;
+  padding: 3vh;
 }/*# sourceMappingURL=style.css.map */
