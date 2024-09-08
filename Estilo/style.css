@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #efeef3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+  padding: 2vh;
+}
+header li {
+  padding: 10px;
+}
+header img {
+  width: 20vh;
+  padding: 0px 5px 2vh 1vw;
+}/*# sourceMappingURL=style.css.map */

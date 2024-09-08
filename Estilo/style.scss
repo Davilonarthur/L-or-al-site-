@@ -1,0 +1,33 @@
+@mixin flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #efeef3;
+    @include flexbox();
+    height: 7vh;
+    
+    ul{
+        @include flexbox();
+        list-style: none;
+        justify-content: space-around;
+        padding: 2vh;
+        
+    }
+    li{
+        padding: 10px;
+    }
+    img{
+        width: 20vh;
+        padding: 0px 5px 2vh 1vw;
+    }
+    
+   
+}
